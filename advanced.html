@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <style>
+            input[type=text]{
+                width: 30%;
+                padding: 5px 20px;
+                margin: 8px 8px;
+                box-sizing: border-box;
+            }
+            label{
+                font-size: 90%;
+                margin-bottom: 30%;
+            }
+            input[type="submit"]{
+                background-color: rgb(17, 85, 231);
+                color: white;
+                border-radius: 5px;
+                width: 10%;
+                text-align: center;
+                padding: 4px;
+                right:47%;
+                position: absolute;
+                margin-top: 5%;
+            }
+            a{
+                text-align: right;
+            }
+            div.one{
+                margin-left: 5%;
+            }
+            div.link{
+                text-align: right;
+                bottom:95%;
+                left:92%;
+                position:fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="adv.png">
+        <div class="link">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="one">
+        <h3 style="color:red;font-family: Arial, Helvetica, sans-serif;">Advanced search</h3>
+        <br><br>
+        Find pages with...
+        <form action="https://www.google.com/search?">
+            <br>
+            <label for="r1">all these words</label>
+            <input type="text" id="r1" name="as_q"><br>
+            <label for="r2">this exact words or phrase</label>
+            <input type="text" id="r2" name="as_epq"><br>
+            <label for="r3">any of these words</label>
+            <input type="text" id="r3" name="as_oq"><br>
+            <label for="r4">none of these</label>
+            <input type="text" id="r4" name="as_eq"><br>
+            <input type="submit" value="Google Search" >
+        </form>
+        </div>
+    </body>
+</html>

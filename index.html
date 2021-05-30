@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            div.link1{
+                text-align: right;
+                bottom:95%;
+                left:82%;
+                position:fixed;
+            }
+            div.link2{
+                text-align: right;
+                bottom:95%;
+                left:90%;
+                position:fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="link1">
+            <a href="images.html">Google Images</a>
+        </div>
+        <div class="link2">
+            <a href="advanced.html">Advanced search</a>
+        </div>
+        <p class="image">
+        <img src="google.png">
+        </p>
+        <form action="https://www.google.com/search?">
+            <div class="wrapper">
+                <input type="text" name="q" >
+            </div>
+            <input type="hidden" name="tbm" value="isch" />
+            <div class="button">
+                <input type="submit" value="Google Search" >
+            </div>
+            
+        </form>
+    </body>
+</html>
